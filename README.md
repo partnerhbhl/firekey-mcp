@@ -17,6 +17,8 @@ npx firekey-mcp --api-key YOUR_API_KEY
 
 ## Configuration
 
+For a first integration test, follow [Create and start your first FireKey profile](docs/first-profile-test.md). It includes an explicit target, pass/fail checks, and troubleshooting before connecting any real account.
+
 ### Claude Desktop
 
 Edit `claude_desktop_config.json`:
@@ -124,8 +126,8 @@ Once configured, you can use natural language in Claude:
 
 - "List all my browser profiles"
 - "Create a Windows profile with Chrome 143 and random fingerprint"
-- "Start the first profile and give me the Puppeteer WebSocket URL"
-- "Stop all running browsers"
+- "Start the profile with this verified public ID and keep its automation endpoint private"
+- "Stop only the demo profile with this verified public ID"
 - "Create a group called 'QA' and move the profile named 'QA-Demo' into it, using its returned public ID"
 
 ## Development
