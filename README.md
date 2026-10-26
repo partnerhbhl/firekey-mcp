@@ -4,6 +4,11 @@ MCP server for [FireKey](https://firekey.ai) browser profile management. Allows 
 
 The server exposes 15 tools through stdio and connects to FireKey's authenticated localhost API. It manages browser profiles and returns automation connection information; it does not itself read web pages or click page elements. FireKey's desktop app also communicates with its backend, so a local MCP connection does not mean the product is fully offline.
 
+## Guides
+
+- [Create, start and stop your first profile](docs/first-profile-test.md): a small, explicit lifecycle check before using real accounts.
+- [Add extensions: Chrome Store URL or local package?](docs/extensions-setup-checklist.md): a desktop workflow with a four-page Chinese visual checklist, input requirements and a one-profile verification checklist. This is not an MCP extension-install tool.
+
 ## Prerequisites
 
 - [FireKey](https://firekey.ai) desktop app running with **Local API enabled** (Settings → Local API & MCP)
